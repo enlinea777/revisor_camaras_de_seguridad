@@ -3,7 +3,9 @@ Pequeña herramienta de python para revisar videos de seguridad colocando un mar
 con sensibilidad y elocidad ajustables
 
 ejemplo de uso
+```
+python detecion.py archivo de video.mp4 81
+```
+la sensibilidad es el ultimo parametro.
 
-python3 detecion.py archivo de video.mp4 81
-
-la sencibilidad es el ultimo parametro.
+![plot](./Ejemplo_01.png)
