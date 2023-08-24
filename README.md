@@ -2,6 +2,12 @@ Pequeña herramienta de python para revisar videos de seguridad colocando un mar
 
 con sensibilidad y velocidad ajustables
 
+ejecutar antes de para instalar los paquetes de python
+
+```
+pip install opencv-python numpy PyQt5
+```
+
 ejemplo de uso
 ```
 python detecion.py archivo_de_video.mp4 81
@@ -16,6 +22,6 @@ tener en cuenta que se debe ejecutar en la carpeta
 ffmpeg -f concat -safe 0 -i <(for f in *.mp4; do echo "file '$PWD/$f'"; done) -c copy output.mp4
 ```
 
-fuciono muy bien con un video de 7 Gigas reran 3 dias seguidos.
+fuciono muy bien con un video de 7 Gigas eran 3 dias seguidos.
 
 
